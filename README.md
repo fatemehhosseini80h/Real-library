@@ -35,15 +35,14 @@
   در دست بررسی
   # مستندات
 
-  مستند نیازمندی ها
+ [مستند نیازمندی‌ها](Needs_Analysis.pdf)
+[مستند فنی](Technical_Documentation.pdf)
+[مستند تست](Testing_Documentation.pdf)
+[مستند پشتیبانی و نگهداری](Maintenance_Support.pdf)
+[مستند کاربر](User_Guide.pdf)
 
-  مستند فنی
 
-  مستند تست
-
-  مستند پشتیبانی و نگهداری
-
-  مستند کاربر
+  
 
   # برنامه زمانبندی اولیه
 
