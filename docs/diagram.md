@@ -1,23 +1,14 @@
-```mermaid
-erDiagram
-    USER {
-        int user_id PK
-        string first_name
-        string last_name
-        string email
-    }
-    BOOK {
-        int book_id PK
-        string isbn
-        string title
-        string author
-        string status
-    }
-    LOAN {
-        int loan_id PK
-        date date_borrow
-        date date_return
-    }
+`mermaid
+flowchart TD
+    ثبت_کاربر["ثبت کاربر جدید"]
+    انتخاب_کتاب["انتخاب کتاب"]
+    ثبت_امانت["ثبت اطلاعات امانت"]
+    تحویل_کتاب["تحویل کتاب به کاربر"]
+    بازگرداندن_کتاب["بازگرداندن کتاب"]
+    بروزرسانی_وضعیت["بروزرسانی وضعیت کتاب"]
 
-    USER ||--o{ LOAN : "borrows"
-    BOOK ||--o{ LOAN : "is loaned"
+    ثبت_کاربر --> انتخاب_کتاب
+    انتخاب_کتاب --> ثبت_امانت
+    ثبت_امانت --> تحویل_کتاب
+    تحویل_کتاب --> بازگرداندن_کتاب
+    بازگرداندن_کتاب --> بروزرسانی_وضعیت
