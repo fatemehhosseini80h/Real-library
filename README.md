@@ -34,21 +34,15 @@
 
   در دست بررسی
   # مستندات
+  <a href="docs/requirements.md">مستند نیازمندی‌ها</a>
+  
+<a href="docs/technical.md">مستند فنی</a>
 
- [مستند نیازمندی‌ ها](Needs_Analysis.pdf)
+<a href="docs/test.md">مستند تست</a>
 
-[
-مستند فنی](Technical_Documentation.pdf)
+<a href="docs/support.md">مستند پشتیبانی و نگهداری</a>
 
-
-[
-مستند تست](Testing_Documentation.pdf)
-
-[
-مستند پشتیبانی و نگهداری](Maintenance_Support.pdf)
-
-[
-مستند کاربر](User_Guide.pdf)
+<a href="docs/user.md">مستند کاربر</a>
 
 
   
